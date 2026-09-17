@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "salt": "billing-demo",
+  "note": "Trusted-agent recovery map. Do NOT ship in production artifacts.",
+  "symbols": {
+    "Tf632d": {
+      "original": "Base",
+      "kind": "type"
+    },
+    "Td9e40": {
+      "original": "BillingTests",
+      "kind": "type"
+    },
+    "Tcce12": {
+      "original": "CodingKeys",
+      "kind": "type"
+    },
+    "Tbecb8": {
+      "original": "Plan",
+      "kind": "type"
+    },
+    "Tdc9c0": {
+      "original": "PricingEngine",
+      "kind": "type"
+    },
+    "T55070": {
+      "original": "Sub",
+      "kind": "type"
+    },
+    "Tb9f5b": {
+      "original": "SubscriptionService",
+      "kind": "type"
+    },
+    "T3fc6c": {
+      "original": "Ticker",
+      "kind": "type"
+    },
+    "f0b262": {
+      "original": "applyFloor",
+      "kind": "func"
+    },
+    "fcba7b": {
+      "original": "auditLine",
+      "kind": "func"
+    },
+    "f7bcc8": {
+      "original": "round2",
+      "kind": "func"
+    }
+  },
+  "skipped": [
+    {
+      "name": "encode",
+      "kind": "func",
+      "reason": "framework/protocol method"
+    },
+    {
+      "name": "fire",
+      "kind": "func",
+      "reason": "override/@objc/IB/dynamic"
+    },
+    {
+      "name": "publicAPI",
+      "kind": "func",
+      "reason": "public/open"
+    },
+    {
+      "name": "renew",
+      "kind": "func",
+      "reason": "dotted call site (regex applier limitation)"
+    },
+    {
+      "name": "renewalPrice",
+      "kind": "func",
+      "reason": "dotted call site (regex applier limitation)"
+    },
+    {
+      "name": "selectorName",
+      "kind": "func",
+      "reason": "dotted call site (regex applier limitation)"
+    },
+    {
+      "name": "testAuditLogStringLiteral",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testOverrideDispatch",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testPlanEncodesWithExactKeySet",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testPlanRoundTrip",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testPublicAPI",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testRenewalPrice",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testSelectorTargetName",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testSubscriptionServiceRenew",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "testTotalOverloads",
+      "kind": "func",
+      "reason": "XCTest method"
+    },
+    {
+      "name": "tick",
+      "kind": "func",
+      "reason": "override/@objc/IB/dynamic"
+    },
+    {
+      "name": "total",
+      "kind": "func",
+      "reason": "overloaded / non-unique name"
+    }
+  ],
+  "files": {
+    "Sources/Billing/Q1/Tb9f5b.swift": "Sources/Billing/Core/SubscriptionService.swift",
+    "Sources/Billing/Q2/Tdc9c0.swift": "Sources/Billing/Pricing/PricingEngine.swift",
+    "Sources/Billing/Q3/Tbecb8.swift": "Sources/Billing/Model/Plan.swift",
+    "Sources/Billing/Q4/T3fc6c.swift": "Sources/Billing/Lifecycle/Ticker.swift",
+    "Sources/Billing/Q5/x7f3.swift": "Sources/Billing/API/PublicAPI.swift",
+    "Tests/BillingTests/Td9e40.swift": "Tests/BillingTests/BillingTests.swift"
+  }
+}
